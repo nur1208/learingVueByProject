@@ -1,0 +1,2 @@
+- {DONE} setting up vue js with vue-cli
+        note: https://github.com/vuejs/vue-cli/tree/v2#vue-cli-- 
