@@ -8,10 +8,16 @@
       "problemMatcher": [],
       "label": "npm: dev - client",
       "detail": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
+      "group": "build"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "server/",
+      "problemMatcher": [],
+      "label": "npm: start - server",
+      "detail": "nodemon --exec node --experimental-modules app.js",
+      "group": "build"
     }
   ]
 }
