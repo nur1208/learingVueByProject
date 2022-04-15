@@ -1,3 +1,5 @@
 - {DONE} setting up vue js with vue-cli
         note: https://github.com/vuejs/vue-cli/tree/v2#vue-cli-- 
 - {DONE} setting up server (backend, express)
+- {DONE} fixing eslint annoying errors
+- {TODO} creating register page 
