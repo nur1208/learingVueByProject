@@ -1,0 +1,9 @@
+@apiUrl = http://localhost:8182
+
+POST {{apiUrl}}/register
+Content-Type: application/json
+
+{
+    "email":"some@some.com",
+    "password":"12341234"
+}

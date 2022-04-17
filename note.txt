@@ -4,3 +4,5 @@
 - {DONE} fixing eslint annoying errors
 - {DONE} creating register page
 - {DONE} setting up sqlite3 database using sequelize 
+- {DONE} improving Register page 
+- {DONE} creating User model
