@@ -1,3 +1,4 @@
+- {TODOS:}
 - {DONE} setting up vue js with vue-cli
         note: https://github.com/vuejs/vue-cli/tree/v2#vue-cli-- 
 - {DONE} setting up server (backend, express)
@@ -10,3 +11,14 @@
 - {DONE} using joi npm package for date (request.body) validation in the server
         note: https://www.npmjs.com/package/joi
 - {DONE} adding validation to register endpoint
+- {DONE} creating header component
+- {DONE} creating login page
+
+- {notes:} 
+- using framework vuetify for css:
+        https://vuetifyjs.com/en/
+
+- {TODOS not important now:}
+- {TODO} fix Cross-site scripting (XSS) security vulnerability in Register page
+        in the following line: <div class='danger-alert' v-html='error' />
+- {TODO} make login and register components as one component called 'Authentication'
