@@ -13,6 +13,8 @@
 - {DONE} adding validation to register endpoint
 - {DONE} creating header component
 - {DONE} creating login page
+- {DONE} creating login endpoint
+
 
 - {notes:} 
 - using framework vuetify for css:

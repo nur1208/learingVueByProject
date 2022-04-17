@@ -52,8 +52,7 @@ export default {
           password: this.password
         });
       } catch (error) {
-        // this.error = error.response.data.error;
-        console.log(error);
+        this.error = error.response.data.error;
       }
     }
   }
