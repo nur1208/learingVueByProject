@@ -5,6 +5,16 @@ Content-Type: application/json
 
 {
     "email":"10020@12.com",
-    "password":"12421234",
-    "username":"nur"
+    "password":"12421234"
+}
+
+###
+
+
+POST {{apiUrl}}/login
+Content-Type: application/json
+
+{
+    "email":"some@some.com",
+    "password":"12341234"
 }

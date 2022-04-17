@@ -14,7 +14,7 @@
 - {DONE} creating header component
 - {DONE} creating login page
 - {DONE} creating login endpoint
-
+- {DONE} adding jwt Authentication
 
 - {notes:} 
 - using framework vuetify for css:
