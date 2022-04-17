@@ -7,3 +7,6 @@
 - {DONE} improving Register page 
 - {DONE} creating User model
 - {DONE} creating register endpoint
+- {DONE} using joi npm package for date (request.body) validation in the server
+        note: https://www.npmjs.com/package/joi
+- {TODO} adding validation to register endpoint
