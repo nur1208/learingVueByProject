@@ -4,6 +4,6 @@ POST {{apiUrl}}/register
 Content-Type: application/json
 
 {
-    "email":"some@some.com",
+    "email":"some2@s3ome.com",
     "password":"12341234"
 }

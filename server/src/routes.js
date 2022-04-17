@@ -1,9 +1,5 @@
-module.exports = (app) => {
-  app.get("/", (req, res) => {
-    res.status(200).json({ message: "working" });
-  });
+const AuthenticationController = require("./controllers/AuthenticationController");
 
-  app.post("/register", (req, res) => {
-    res.status(200).json({ message: `email ${req.body.email}` });
-  });
+module.exports = (app) => {
+  app.post("/register", AuthenticationController.register);
 };
