@@ -2,4 +2,5 @@
         note: https://github.com/vuejs/vue-cli/tree/v2#vue-cli-- 
 - {DONE} setting up server (backend, express)
 - {DONE} fixing eslint annoying errors
-- {TODO} creating register page 
+- {DONE} creating register page
+- {DONE} setting up sqlite3 database using sequelize 
