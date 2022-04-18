@@ -1,65 +1,77 @@
 <template>
-  <panel title="Songs">
-    <v-btn
-      slot="action"
-      @click="navigateTo({ name: 'song-create' })"
-      class="cyan accent-2"
-      light
-      medium
-      absolute
-      right
-      middle
-      fab
-    >
-      <v-icon>add</v-icon>
-    </v-btn>
+  <v-layout>
+    <v-flex class="xs12">
+      <panel title="Songs">
+        <v-btn
+          slot="action"
+          @click="navigateTo({ name: 'song-create' })"
+          class="cyan accent-2"
+          light
+          medium
+          absolute
+          right
+          middle
+          fab
+        >
+          <v-icon> add </v-icon>
+        </v-btn>
 
-    <div v-for="song in songs" class="song" :key="song.id">
-      <v-layout>
-        <v-flex xs6>
-          <div class="song-title">
-            {{ song.title }}
-          </div>
-          <div class="song-artist">
-            {{ song.artist }}
-          </div>
-          <div class="song-genre">
-            {{ song.genre }}
-          </div>
+        <div v-for="song in songs" class="song" :key="song.id">
+          <v-layout>
+            <v-flex xs6>
+              <div class="song-title">
+                {{ song.title }}
+              </div>
+              <div class="song-artist">
+                {{ song.artist }}
+              </div>
+              <div class="song-genre">
+                {{ song.genre }}
+              </div>
 
-          <v-btn
-            dark
-            class="cyan"
-            :to="{
-              name: 'song',
-              params: {
-                songId: song.id
-              }
-            }"
-          >
-            View
-          </v-btn>
-        </v-flex>
+              <v-btn
+                dark
+                class="cyan"
+                :to="{
+                  name: 'song',
+                  params: {
+                    songId: song.id
+                  }
+                }"
+              >
+                View
+              </v-btn>
+            </v-flex>
 
-        <!-- <v-flex xs6>
-          <img class="album-image" :src="song.albumImageUrl" />
-        </v-flex> -->
-      </v-layout>
-    </div>
-  </panel>
+            <v-flex xs6>
+              <img class="album-image" :src="song.albumImageUrl" />
+            </v-flex>
+          </v-layout>
+        </div>
+      </panel>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
 import Panel from "./Panel.vue";
 import SongsService from "../services/SongsService";
+import { mdiPencil } from "@mdi/js";
+
 export default {
-  data() {
-    return {
-      songs: null
-    };
-  },
+  //   data() {
+  //     return {
+  //         icons: { mdiPencil }
+  //     };
+  //   },
+  data: () => ({
+    songs: null,
+    icons: {
+      mdiPencil
+    }
+  }),
   async mounted() {
-    this.songs = await SongsService.index();
+    this.songs = (await SongsService.index()).data;
   },
   methods: {
     navigateTo(route) {
