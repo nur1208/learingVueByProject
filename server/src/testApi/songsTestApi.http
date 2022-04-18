@@ -1,0 +1,19 @@
+@apiUrl = http://localhost:8182/songs
+
+
+
+POST {{apiUrl}}
+Content-Type: application/json
+
+{
+    "title":"someTitle",
+    "artist":"someArtist",
+    "album":"someAlbum",
+    "albumImageUrl": "someImage",
+    "youtubeId":"youtubeId",
+    "lyrics":"lyrics",
+    "tab":"tab"
+}
+
+###
+GET {{apiUrl}}

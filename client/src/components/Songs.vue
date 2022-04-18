@@ -53,11 +53,15 @@
 
 <script>
 import Panel from "./Panel.vue";
+import SongsService from "../services/SongsService";
 export default {
   data() {
     return {
-      songs: [{ title: "sometitle", artist: "artist", genre: "genre" }]
+      songs: null
     };
+  },
+  async mounted() {
+    this.songs = await SongsService.index();
   },
   components: {
     Panel

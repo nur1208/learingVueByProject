@@ -18,7 +18,7 @@
 - {DONE} setting up vuex and saving token and user object in the store
 - {DONE} using vuex states in login page and register page 
 - {DONE} creating songs page 
-
+- {DONE} creating 'create songs' endpoint and 'get all songs' endpoint
 - [notes:]
 - using framework vuetify for css:
         https://vuetifyjs.com/en/
@@ -27,3 +27,4 @@
 - {TODO} fix Cross-site scripting (XSS) security vulnerability in Register page
         in the following line: <div class='danger-alert' v-html='error' />
 - {TODO} make login and register components as one component called 'Authentication'
+- {TODO} creating songsPolicy.create in create songs endpoint
