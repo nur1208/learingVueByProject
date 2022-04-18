@@ -17,6 +17,7 @@
 - {DONE} adding jwt Authentication
 - {DONE} setting up vuex and saving token and user object in the store
 - {DONE} using vuex states in login page and register page 
+- {DONE} creating songs page 
 
 - [notes:]
 - using framework vuetify for css:
