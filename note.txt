@@ -15,7 +15,8 @@
 - {DONE} creating login page
 - {DONE} creating login endpoint
 - {DONE} adding jwt Authentication
-- {TODO} setting up vuex 
+- {DONE} setting up vuex and saving token and user object in the store
+- {DONE} using vuex states in login page and register page 
 
 - [notes:]
 - using framework vuetify for css:
