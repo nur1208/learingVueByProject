@@ -2,9 +2,7 @@
   <panel title="Songs">
     <v-btn
       slot="action"
-      :to="{
-        name: 'songs-create'
-      }"
+      @click="navigateTo({ name: 'song-create' })"
       class="cyan accent-2"
       light
       medium
@@ -62,6 +60,11 @@ export default {
   },
   async mounted() {
     this.songs = await SongsService.index();
+  },
+  methods: {
+    navigateTo(route) {
+      this.$router.push(route);
+    }
   },
   components: {
     Panel

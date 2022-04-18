@@ -19,6 +19,7 @@
 - {DONE} using vuex states in login page and register page 
 - {DONE} creating songs page 
 - {DONE} creating 'create songs' endpoint and 'get all songs' endpoint
+- {DONE} creating 'create songs' page
 - [notes:]
 - using framework vuetify for css:
         https://vuetifyjs.com/en/
