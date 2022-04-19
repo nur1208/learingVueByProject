@@ -23,8 +23,8 @@
 - {DONE} creating 'get song by id' endpoint
 - {DONE} creating 'view song' page
 - {DONE} creating 'edit song' page
-- {TODO} creating 'edit song' endpoint
-
+- {DONE} creating 'edit song' endpoint
+- {DONE} creating 'search' component
 - [notes:]
 - using framework vuetify for css:
         https://vuetifyjs.com/en/
