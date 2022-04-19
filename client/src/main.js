@@ -8,11 +8,14 @@ import { sync } from "vuex-router-sync";
 import store from "@/store/store";
 import "vuetify/dist/vuetify.min.css";
 import "@mdi/font/css/materialdesignicons.css";
-
+import VueYouTubeEmbed from "vue-youtube-embed";
+import Panel from "@/components/Panel";
 Vue.config.productionTip = false;
 Vue.use(Vuetify);
+Vue.use(VueYouTubeEmbed);
 
 sync(store, router);
+Vue.component("panel", Panel);
 /* eslint-disable no-new */
 new Vue({
   el: "#app",

@@ -20,6 +20,9 @@
 - {DONE} creating songs page 
 - {DONE} creating 'create songs' endpoint and 'get all songs' endpoint
 - {DONE} creating 'create songs' page
+- {DONE} creating 'get song by id' endpoint
+- {DONE} creating 'view songs' page
+
 - [notes:]
 - using framework vuetify for css:
         https://vuetifyjs.com/en/
