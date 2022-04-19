@@ -21,7 +21,8 @@
 - {DONE} creating 'create songs' endpoint and 'get all songs' endpoint
 - {DONE} creating 'create songs' page
 - {DONE} creating 'get song by id' endpoint
-- {DONE} creating 'view songs' page
+- {DONE} creating 'view song' page
+- {DONE} creating 'edit song' page
 
 - [notes:]
 - using framework vuetify for css:
