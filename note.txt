@@ -25,6 +25,8 @@
 - {DONE} creating 'edit song' page
 - {DONE} creating 'edit song' endpoint
 - {DONE} creating 'search' component
+- {DONE} using lodash improve search functionality
+
 - [notes:]
 - using framework vuetify for css:
         https://vuetifyjs.com/en/

@@ -1,7 +1,7 @@
 <template>
   <v-toolbar fixed class="cyan" dark>
     <v-toolbar-title class="mr-4">
-      <span @click="navigateTo({ name: 'root' })" class="home">
+      <span @click="navigateTo({ name: 'songs' })" class="home">
         TabTracker
       </span>
     </v-toolbar-title>
@@ -49,7 +49,7 @@ export default {
     logout() {
       this.$store.dispatch("setUser", null);
       this.$store.dispatch("setToken", null);
-      this.$router.push({ name: "root" });
+      this.$router.push({ name: "songs" });
     }
   }
 };
